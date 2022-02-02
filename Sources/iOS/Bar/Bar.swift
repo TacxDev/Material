@@ -31,7 +31,7 @@ public enum ContentViewAlignment: Int {
   case center
 }
 
-open class Bar: View {
+open class Bar: MaterialView {
   /// Will layout the view.
   open var willLayout: Bool {
     return 0 < bounds.width && 0 < bounds.height && nil != superview && !grid.isDeferred

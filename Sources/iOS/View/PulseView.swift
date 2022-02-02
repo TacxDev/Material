@@ -26,7 +26,7 @@
 import UIKit
 import Motion
 
-open class PulseView: View, Pulseable, PulseableLayer {
+open class PulseView: MaterialView, Pulseable, PulseableLayer {
   /// A Pulse reference.
   internal var pulse: Pulse!
   

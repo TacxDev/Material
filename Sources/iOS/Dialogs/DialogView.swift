@@ -59,7 +59,7 @@ private class DialogScrollView: UIScrollView {
   }
 }
 
-open class DialogView: View, Themeable {
+open class DialogView: MaterialView, Themeable {
   /// A container view for title area.
   public let titleArea = UIView()
   

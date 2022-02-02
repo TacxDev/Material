@@ -39,7 +39,7 @@ public enum FABMenuDirection: Int {
   case right
 }
 
-open class FABMenuItem: View {
+open class FABMenuItem: MaterialView {
   /// A reference to the titleLabel.
   public let titleLabel = UILabel()
   
@@ -189,7 +189,7 @@ public protocol FABMenuDelegate {
 }
 
 @objc(FABMenu)
-open class FABMenu: View {
+open class FABMenu: MaterialView {
   /// A flag to avoid the double tap.
   fileprivate var shouldAvoidHitTest = false
   

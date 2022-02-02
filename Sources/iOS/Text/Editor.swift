@@ -30,7 +30,7 @@ public enum EditorPlaceholderAnimation {
   case hidden
 }
 
-open class Editor: View, Themeable {
+open class Editor: MaterialView, Themeable {
   /// Reference to textView.
   public let textView = TextView()
   

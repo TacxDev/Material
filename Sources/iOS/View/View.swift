@@ -25,7 +25,7 @@
 
 import UIKit
 
-open class View: UIView {
+open class MaterialView: UIView {
   open override var intrinsicContentSize: CGSize {
     return bounds.size
   }
@@ -163,7 +163,7 @@ open class View: UIView {
   }
 }
 
-extension View {
+extension MaterialView {
   /// Prepares the visualLayer property.
   fileprivate func prepareVisualLayer() {
     visualLayer.zPosition = 0
@@ -172,7 +172,7 @@ extension View {
   }
 }
 
-extension View {
+extension MaterialView {
   /// Manages the layout for the visualLayer property.
   fileprivate func layoutVisualLayer() {
     visualLayer.frame = bounds

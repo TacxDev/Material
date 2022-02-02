@@ -35,7 +35,7 @@ public struct Icon {
    */
   public static var bundle: Bundle {
     if nil == Icon.internalBundle {
-      Icon.internalBundle = Bundle(for: View.self)
+      Icon.internalBundle = Bundle(for: MaterialView.self)
       let url = Icon.internalBundle!.resourceURL!
       let b = Bundle(url: url.appendingPathComponent("com.cosmicmind.material.icons.bundle"))
       if let v = b {

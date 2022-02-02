@@ -25,7 +25,7 @@
 
 import UIKit
 
-open class BaseButtonGroup<T: Button>: View {
+open class BaseButtonGroup<T: Button>: MaterialView {
   
   /// Holds reference to buttons within the group.
   open var buttons: [T] = [] {
